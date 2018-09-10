@@ -15,7 +15,17 @@ $background-opacity: 0.6;
         $home-image;
       background-attachment: fixed;
       background-size: cover;
+
     }
+  }
+}
+
+//Set text color 
+@function set-text-color($color){
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
   }
 }
 
