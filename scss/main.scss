@@ -1,9 +1,11 @@
 @import "config";
 @import "menu";
+@import "mobile";
 
 * {
   box-sizing: border-box;
 }
+
 body {
   background: $primary-color;
   @include background;
@@ -50,7 +52,7 @@ main {
   padding: 4rem;
   height: 100%;
 
-  .icons {
+  .icosns {
     margin-top: 1rem;
     a {
       padding: 0.4rem;
