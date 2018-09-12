@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url(/dist/img/portrait.jpg);
+      background: url(../img/portrait.jpg);
       border-radius: 60px;
       border: solid 3px #beee66; }
   .menu .nav-item {
@@ -101,7 +101,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: linear-gradient(rgba(93, 136, 153, 0.7), rgba(0, 0, 0, 0.7)), url(/dist/img/background.jpg);
+    background: linear-gradient(rgba(93, 136, 153, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover; }
 
@@ -136,11 +136,11 @@ header {
 main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }
-  main .icosns {
+  main .icons {
     margin-top: 1rem; }
-    main .icosns a {
+    main .icons a {
       padding: 0.4rem; }
-      main .icosns a:hover {
+      main .icons a:hover {
         color: #beee66;
         transition: all 0.5s ease-out; }
   main#home {
