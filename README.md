@@ -1,0 +1,1 @@
+This is my portfolio website, its a simple static page, inspired by traversey media. 
